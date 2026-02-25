@@ -1,4 +1,4 @@
-# Exprob_Project
+# EXPERIMENTAL_ROBOTICS_PROJECT
 
 ## Video Result
 
@@ -36,7 +36,7 @@ sudo apt upgrade
 1. Navigate to your ROS 2 workspace and clone the repository inside the `src` folder:
    ```bash
    cd <your_ros2_workspace>/src
-   git clone git@github.com:AlvinIsac/exprob_assignment_2.git
+   git clone git@github.com:AlvinIsac/EXPERIMENTAL_ROBOTICS_PROJECT.git
    ```
 
 2. Build the workspace:
@@ -64,7 +64,7 @@ ros2 launch robot_urdf gazebo_hw2.launch.py
 In the second terminal, run:
 
 ```bash
-ros2 launch nav2_bringup bringup_launch.py map:=/<give_your_path>/src/exprob_assignment_2/robot_urdf/map/map.yaml
+ros2 launch nav2_bringup bringup_launch.py map:=/<give_your_path>/src/EXPERIMENTAL_ROBOTICS_PROJECT/robot_urdf/map/map.yaml
 ```
 
 > **Note**: Replace `<give_your_path>` with the full path to your workspace. Ensure the parameters are set correctly, or the launch may fail.
@@ -73,7 +73,7 @@ ros2 launch nav2_bringup bringup_launch.py map:=/<give_your_path>/src/exprob_ass
 In the third terminal, run:
 
 ```bash
-cd <your_path_to_ws>/src/Exprob_Project/robot_urdf/src
+cd <your_path_to_ws>/src/EXPERIMENTAL_ROBOTICS_PROJECT/robot_urdf/src
 ./marker_coordinatesNew.py
 ```
 
