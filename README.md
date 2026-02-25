@@ -1,4 +1,4 @@
-# exprob_assignment_2
+# Exprob_Project
 
 ## Video Result
 
@@ -73,7 +73,7 @@ ros2 launch nav2_bringup bringup_launch.py map:=/<give_your_path>/src/exprob_ass
 In the third terminal, run:
 
 ```bash
-cd <your_path_to_ws>/src/exprob_assignment_2/robot_urdf/src
+cd <your_path_to_ws>/src/Exprob_Project/robot_urdf/src
 ./marker_coordinatesNew.py
 ```
 
