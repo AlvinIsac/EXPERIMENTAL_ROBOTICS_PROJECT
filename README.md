@@ -1,9 +1,9 @@
 # EXPERIMENTAL_ROBOTICS_PROJECT
-
+<!--
 ## Video Result
 
 [![Watch the demo video](https://img.youtube.com/vi/sR4d2pFwdho/0.jpg)](https://youtu.be/sR4d2pFwdho)
-
+-->
 ## Prerequisites
 
 Ensure you have **ROS 2 Humble** or a higher version recommended.
